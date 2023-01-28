@@ -1,4 +1,4 @@
-# lorawan_payload_decoder
+# lorawan-payload-decoder
 
 Payload decoders for heat meter LoRaWAN modules.<br>
 
