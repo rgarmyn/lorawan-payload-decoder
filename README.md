@@ -1,12 +1,9 @@
 # lorawan_payload_decoder
 
-Payload decoders for heat meter LoRaWAN modules from Elvaco AB<br>
-The payload decoders are based on the documentation <br>
-https://www.elvaco.se/en/catalog/node/meter-modules
+Payload decoders for heat meter LoRaWAN modules.<br>
 
-
-
- The modules currently supported are:<br>
+The modules currently supported are from Elvaco AB, the decoders are based on theavailable documentation<br>
+https://www.elvaco.se/en/catalog/node/meter-modules<br>
     - cmi4110 <br>
     - cmi4111 <br>
     - cmi4130 <br>
@@ -14,5 +11,5 @@ https://www.elvaco.se/en/catalog/node/meter-modules
     - cmi4160 <br>
 
 
-The supported message format is Standard
+The currently supported message format is Standard
 
