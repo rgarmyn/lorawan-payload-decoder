@@ -12,7 +12,7 @@ from elvaco_modules.cmi4160_decoder import decode_cmi4160
 
 
 def decode_payload(
-    payload: str, sensor_type: Literal["cmi4110", "cmi4111", "cmi4130", "cmi4160"]
+    payload: str, sensor_type: Literal["cmi4110", "cmi4111", "cmi4130", "cmi4140", "cmi4160"]
 ) -> Optional[ModulePayload]:
     payload_arr = separate_payload(payload)
     try:
