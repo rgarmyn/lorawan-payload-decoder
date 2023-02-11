@@ -4,11 +4,11 @@ from decoder_utils import (
     ModulePayload,
     separate_payload,
 )
-from elvaco_modules.cmi4110_decoder import decode_cmi4110
-from elvaco_modules.cmi4111_decoder import decode_cmi4111
-from elvaco_modules.cmi4130_decoder import decode_cmi4130
-from elvaco_modules.cmi4140_decoder import decode_cmi4140
-from elvaco_modules.cmi4160_decoder import decode_cmi4160
+from elvaco_modules.cmi4110.cmi4110_decoder import decode_cmi4110
+from elvaco_modules.cmi4111.cmi4111_decoder import decode_cmi4111
+from elvaco_modules.cmi4130.cmi4130_decoder import decode_cmi4130
+from elvaco_modules.cmi4140.cmi4140_decoder import decode_cmi4140
+from elvaco_modules.cmi4160.cmi4160_decoder import decode_cmi4160
 
 
 def decode_payload(
